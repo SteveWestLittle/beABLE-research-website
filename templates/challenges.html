@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="challenges-header">
+    <h1>Challenges in AI for Disability Support</h1>
+    <p>Critical ethical considerations in technological development</p>
+</section>
+
+<section class="challenges-categories">
+    <div class="challenge-card">
+        <h2>Technology Inaccessibility</h2>
+        <p>Many AI systems are not designed with diverse user needs in mind, creating barriers for persons with disabilities.</p>
+        <ul>
+            <li>Inadequate natural language processing</li>
+            <li>Limited gesture recognition</li>
+            <li>Inflexible user interfaces</li>
+        </ul>
+    </div>
+
+    <div class="challenge-card">
+        <h2>AI Bias</h2>
+        <p>Training data and algorithmic design can perpetuate systemic biases against persons with disabilities.</p>
+        <ul>
+            <li>Underrepresentation in training datasets</li>
+            <li>Discriminatory algorithmic decisions</li>
+            <li>Stereotypical language generation</li>
+        </ul>
+    </div>
+
+    <div class="challenge-card">
+        <h2>Data Privacy</h2>
+        <p>Persons with disabilities are particularly vulnerable to data exploitation and privacy breaches.</p>
+        <ul>
+            <li>Sensitive personal health information</li>
+            <li>Unique identifiable characteristics</li>
+            <li>Potential misuse of personal data</li>
+        </ul>
+    </div>
+</section>
+{% endblock %}
